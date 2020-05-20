@@ -8,6 +8,10 @@ class Board {
         this.grid[(row << 2) + col] = card;
     }
 
+    getCard(row, col) {
+        return this.grid[(row << 2) + col];
+    }
+
     canPlace(row, col, card) {
         // Make sure we don't have this card already placed
         if (card.identity) {

@@ -15,10 +15,13 @@ out a test-driven development approach using my laptop and VSCode.
 
 ## Implementation
 
-So far it's just two classes - `Board` and `Card` and a couple of tests for those in `mocha` framework.
+So far it's just two classes - `Board` and `Card` and tests for them. Initially those were written
+with `mocha` - you can run those with `npm test-mocha`. Then I rewrote them with `jest` and am
+currently running them with [Majestic][#majestic].
 
 Install dev-dependencies with `npm install` and run the test suites with `npm test`.
 
-## Links
+---
 
-[#euler-squares]: https://www.youtube.com/watch?v=qu04xLNrk94 'YouTube: Euler Squares - Numberphile'
+[#euler-squares]: https://www.youtube.com/watch?v=qu04xLNrk94 "YouTube: Euler Squares - Numberphile"
+[#majestic]: https://github.com/Raathigesh/majestic "Zero config UI for Jest"
