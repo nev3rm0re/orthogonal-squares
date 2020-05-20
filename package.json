@@ -11,10 +11,11 @@
         "@babel/core": "^7.9.6",
         "@babel/preset-env": "^7.9.6",
         "@babel/register": "^7.9.0",
+        "jest": "^26.0.1",
         "mocha": "^7.1.2"
     },
     "scripts": {
-        "test": "mocha --require @babel/register ."
+        "test-mocha": "mocha --require @babel/register ."
     },
     "author": "German Rumm",
     "license": "ISC"
